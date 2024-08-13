@@ -1,0 +1,69 @@
+.AdminPage {
+    display: flex;
+    height: 100vh; 
+  }
+  
+  .OrderList {
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f7f9;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+    height: fit-content;
+  }
+  
+  .OrderDetails {
+    width: 70%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    overflow-y: auto; 
+  }
+  
+  .OrderList ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .OrderList li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .OrderList button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .OrderList button:hover {
+    background-color: #0056b3;
+  }
+  
+  .OrderDetails h2, .OrderDetails h3 {
+    color: #333;
+  }
+  
+  .OrderDetails ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .OrderDetails li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .OrderDetails div {
+    margin-bottom: 5px;
+    color: #555;
+  }

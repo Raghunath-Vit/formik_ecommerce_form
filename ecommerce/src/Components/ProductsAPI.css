@@ -1,0 +1,67 @@
+
+.ProductsAPI {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cartButton {
+    background-color: #ff6347; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .cartButton p {
+    margin: 0;
+  }
+  
+  .ProductsCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .inner {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inner p {
+    margin: 5px 0;
+  }
+  
+  .inner button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .inner button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .inner button:hover {
+    background-color: #45a049; 
+  }
+  
+  .inner button:last-child {
+    background-color: #ff6347;
+  }
+  
+  .inner button:last-child:hover {
+    background-color: #e55347;
+  }
+  
