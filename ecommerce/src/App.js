@@ -7,7 +7,7 @@ import {
   Link,
 } from "react-router-dom";
 import Category from "./Components/Category";
-import AddProduct from "./AddProducts";
+import AddProduct from "./Components/AddProducts";
 import ShowDetails from "./Components/UserDetails";
 import UserDetails from "./Components/UserDetails";
 import ShowUsers from "./Components/ShowUsers";
@@ -24,6 +24,7 @@ import ProductDetails from "./Components/ProductDetails";
 import ProductsAPI from "./Components/ProductsAPI";
 import CartPage from "./Components/CartPage";
 import RoleForm from "./Components/RoleForm";
+import ShowProducts from './Components/ShowProducts'
 function App() {
   return (
     <>
@@ -44,13 +45,15 @@ function App() {
           <Route path="/AdminPage" element={<AdminPage />}>
             <Route path=":orderId" element={<OrderDetails />} />
           </Route>
-          <Route path="/addproducts" element={<AddProducts />} />
+          <Route path="/Addproducts" element={<AddProducts />} />
           <Route path="/Home" element={<Home />}>
             <Route path=":id" element={<ProductDetails />} />
           </Route>
           <Route path="/Products" element={<ProductsAPI />} />
           <Route path="/cartPage" element={<CartPage />} />
           <Route path="/AddRole" element={<RoleForm />} />
+          <Route path='/ShowProducts' element={<ShowProducts />}/>
+          <Route path='/ShowProducts/:id' element={<ShowProducts />}/>
         </Routes>
       </BrowserRouter>
     </>
