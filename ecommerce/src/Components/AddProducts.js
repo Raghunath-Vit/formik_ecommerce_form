@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import * as Yup from "yup";
 import './AddProducts.css';
 
+
 function AddProducts() {
     let [categories, setCategories] = useState([]);
     let [data, setData] = useState([{ code: "", name: "", excerpt: "", category: "", price: Number }]);

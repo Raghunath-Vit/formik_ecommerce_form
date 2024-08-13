@@ -7,7 +7,7 @@ import {
   Link,
 } from "react-router-dom";
 import Category from "./Components/Category";
-import AddProduct from "./Components/AddProducts";
+import AddProducts from "./Components/AddProducts";
 import ShowDetails from "./Components/UserDetails";
 import UserDetails from "./Components/UserDetails";
 import ShowUsers from "./Components/ShowUsers";
@@ -18,7 +18,6 @@ import Navbar from "./Components/Navbar";
 import CategoryPage from "./Components/CategoryPage";
 import AddCategory from "./Components/AddCategory";
 import EditCategory from "./Components/EditCategory";
-import AddProducts from "./AddProducts";
 import Home from "./Components/Home";
 import ProductDetails from "./Components/ProductDetails";
 import ProductsAPI from "./Components/ProductsAPI";

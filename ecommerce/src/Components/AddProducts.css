@@ -1,4 +1,4 @@
-.form-container {
+/* .form-container {
     max-width: 600px;
     margin: auto;
     padding: 20px;
@@ -34,4 +34,60 @@ button {
 
 button:hover {
     background-color: #45a049;
+} */
+
+/* Container for the form */
+.addproducts {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Form styling */
+.addproducts form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input, select, and button styling */
+.addproducts input, 
+.addproducts select, 
+.addproducts button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Specific input types styling */
+.addproducts input[type="text"], 
+.addproducts input[type="number"], 
+.addproducts select {
+    width: 100%;
+}
+
+/* Button styling */
+.addproducts button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.addproducts button:hover {
+    background-color: #45a049;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
